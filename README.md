@@ -15,7 +15,7 @@ Mettre en place un système de centralisation des logs en utilisant Rsyslog sur 
 **Durée :** 4 heures  
 **Objectif :** Apprendre à configurer un serveur Rsyslog pour la collecte centralisée de logs à partir de différentes sources sur des instances EC2 et à intégrer CloudWatch pour la visualisation et l'analyse des logs.  
 **Modalité de travail :** Par groupe  
-**Notation :** 10 points (7 points pour la configuration de Rsyslog, 3 points pour l'intégration avec CloudWatch)
+**Notation :** 7 points (4 points pour la démonstration, 3 points pour la présentation)
 
 ----------
 
