@@ -121,19 +121,21 @@ Mettre en place un système de centralisation des logs en utilisant Rsyslog sur 
 
 1.  **Envoyer un message de log depuis le client :**
     -   Utilisez la commande suivante sur le client pour envoyer un message de test :
-        `logger -p local0.notice "Test log message from $(hostname) client"`
+        `logger -p local0.notice "Test log message from $(hostname) client pour la team -nom ou numéro de votre team-"`
 2.  **Vérifier la réception du log sur le serveur :**
     -   Consultez le fichier `/var/log/remote_logs.log` sur le serveur pour vérifier si le message du client a été enregistré :
         `cat /var/log/remote_logs.log`
 3.  **Vérifier la réception du log dans CloudWatch :**
     -   Dans CloudWatch, assurez-vous que le log est bien apparu sous le groupe de logs configuré.
 4.  **Rédiger une présentation pour les décideurs :**
-    -   Préparez une présentation PPT qui inclut :
+    -   Préparez une présentation PPT qui présente :
         -   Une démonstration de la centralisation des logs via Rsyslog.
         -   L'intégration avec AWS CloudWatch pour une surveillance en temps réel.
         -   Les avantages de cette solution pour l'entreprise (facilité de détection des incidents, conformité, gestion centralisée).
         -   Les coûts engagés pour cette architecture.
         -   Les recommandations pour la mise en production.
+        -   Si l'entreprise décide de passer à GCP ou à Cloud Azure, quelles sont les ressources nécessaires pour assurer le même fonctionnement que ce que vous proposez pour AWS ?
+        -   Proposez les schéma d'architecture de la centralisation et du stockage des logs pour GCP et Azure en vous basant sur les ressources identifiées.
 
 ----------
 
