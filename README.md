@@ -1,4 +1,4 @@
-### **Scénario : Centralisation des Logs pour une Entreprise en Croissance**
+### **Centralisation des Logs pour une Entreprise en Croissance**
 
 #### **Contexte d'Entreprise**
 
